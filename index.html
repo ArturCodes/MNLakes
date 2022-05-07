@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Minnesota Lakes Web Design & Development"
+    />
+    <meta
+      name="keywords"
+      content="Minnesota Lakes Web Design, Minnesota Lakes Web Developer"
+    />
+    <title>MN Lakes Web Design & Development</title>
+
+    <!--Social Media Display-->
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:secure_url" content="" />
+
+    <!-- Tab Icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icon.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="root.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="mobile-nav"></div>
+      <!-- ============================================ -->
+      <!--                   NAVIGATION                 -->
+      <!-- ============================================ -->
+      <nav class="navbar">
+        <img src="./assets/logo2.png" width="246px" height="75px" alt="logo" />
+
+        <ul class="navbar-nav">
+          <li class="nav-item">Home</li>
+          <li class="nav-item">About</li>
+          <li class="nav-item">Services</li>
+          <li class="nav-item">Portfolio</li>
+          <li class="nav-item">Contact</li>
+        </ul>
+      </nav>
+
+      <div class="container">
+        <h1>MN Lakes Web</h1>
+        <h1>Design + Development</h1>
+        <p>
+          We build your website from scratch, line by line. No page builders or
+          WordPress. Ensuring top performance and online presence.
+        </p>
+        <button>Learn More</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============================================ -->
+      <!--                   LANDING                    -->
+      <!-- ============================================ -->
+      <section id="landing" class="section">
+        <div class="container">
+          <h1>landing</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem sunt
+            fuga pariatur id odit animi doloribus tempora incidunt unde modi aut
+            harum, eveniet, blanditiis ipsa provident laboriosam porro quam qui.
+          </p>
+        </div>
+      </section>
+      <!-- ============================================ -->
+      <!--                   SERVICES                   -->
+      <!-- ============================================ -->
+
+      <!-- ============================================ -->
+      <!--                   ABOUT                      -->
+      <!-- ============================================ -->
+    </main>
+    <!-- ============================================ -->
+    <!--                   FOOTER                     -->
+    <!-- ============================================ -->
+    <footer>
+      <div class="container"></div>
+    </footer>
+
+    <script defer src="/app.js"></script>
+
+    <script>
+      const theme = localStorage.getItem('theme')
+      if (theme) {
+        body.classList.add(theme);
+      }
+    </script>
+    
+  </body>
+</html>

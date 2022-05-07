@@ -1,0 +1,38 @@
+:root {
+    --color0: hsl(197, 37, 24);
+    --color1: hsl(173, 58, 39);
+
+    --max-width: 1100px;
+}
+
+@media screen and (min-width: 0px) {
+    .section {
+        width: 100%;
+    }
+    .container {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 100px;
+    }
+
+}
+/* Ipad Pro */
+@media screen and (min-width: 450px) and (max-width: 991px) {
+
+}
+/* Tablets */
+@media screen and (min-width: 750px) and (max-width: 1023px){
+
+}
+/* Small Desktop */
+@media screen and (min-width: 1024px) { 
+
+}
+/* Regular Desktop */
+@media screen and (min-width: 1300px) {
+
+}
+
+@media only screen and (min-width: 2000px) {
+
+}
