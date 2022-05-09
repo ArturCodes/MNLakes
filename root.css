@@ -1,8 +1,8 @@
 :root {
   --light: rgb(160, 240, 182);
   --light2: rgb(81, 127, 77);
-  --dawn: rgb(201, 143, 198);
-  --dawn2: rgb(108, 25, 150);
+  --dawn: rgb(227, 192, 104);
+  --dawn2: rgb(150, 71, 25);
   --dark: rgb(163, 153, 239);
   --dark2: rgb(34, 29, 72);
   --max-width: 1100px;
@@ -23,6 +23,10 @@
 .dawn {
   background: -webkit-gradient(linear, left top, left bottom, from(var(--dawn)), to(var(--dawn2)));
   background: linear-gradient(to bottom, var(--dawn), var(--dawn2));
+}
+
+.section {
+  margin: 0 50px;
 }
 
 @media screen and (min-width: 0px) {

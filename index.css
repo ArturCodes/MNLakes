@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url(./root.scss);
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -7,7 +8,6 @@
 }
 
 header {
-  height: 600px;
   text-align: center;
 }
 
@@ -53,5 +53,22 @@ header {
   list-style-type: none;
   margin: 0 15px;
   padding: 0 15px;
+}
+
+#button {
+  height: 50px;
+  width: 50px;
+}
+
+#button svg {
+  width: 50px;
+  height: 50px;
+}
+
+#landing div {
+  text-align: center;
+  font-size: 2.2em;
+  width: 500px;
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */
