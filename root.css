@@ -25,83 +25,8 @@
   background: linear-gradient(to bottom, var(--dawn), var(--dawn2));
 }
 
-.section {
-  margin: 0 50px;
-}
-
-@media screen and (min-width: 0px) {
-  .section {
-    width: 100%;
-    margin: 0 50px;
-  }
-  .container {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 100px;
-  }
-}
-
 /* Ipad Pro */
-@media screen and (min-width: 450px) and (max-width: 991px) {
-  .section {
-    width: 100%;
-    margin: 0 50px;
-  }
-  .container {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 100px;
-  }
-}
-
 /* Tablets */
-@media screen and (min-width: 750px) and (max-width: 1023px) {
-  .section {
-    width: 100%;
-    margin: 0 50px;
-  }
-  .container {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 100px;
-  }
-}
-
 /* Small Desktop */
-@media screen and (min-width: 1024px) {
-  .section {
-    width: 100%;
-    margin: 0 50px;
-  }
-  .container {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 100px;
-  }
-}
-
 /* Regular Desktop */
-@media screen and (min-width: 1300px) {
-  .section {
-    width: 100%;
-    margin: 0 50px;
-  }
-  .container {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 100px;
-  }
-}
-
-@media only screen and (min-width: 2000px) {
-  .section {
-    width: 100%;
-    margin: 0 50px;
-  }
-  .container {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 100px;
-  }
-}
 /*# sourceMappingURL=root.css.map */
