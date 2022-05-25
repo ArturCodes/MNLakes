@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+header {
+  background: var(--light);
+}
+
 .navbar {
   max-width: 1100px;
   margin: 0 auto;
@@ -24,7 +28,7 @@
   top: 15px;
 }
 
-.navbar .navbar-nav {
+.navbar .navbar-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,7 +40,7 @@
           align-items: center;
 }
 
-.navbar .navbar-nav a {
+.navbar .navbar-link a {
   padding: 20px 20px;
   margin: 0 5px;
   list-style-type: none;
@@ -46,7 +50,7 @@
   font-weight: 700;
 }
 
-.navbar .navbar-nav a:hover {
+.navbar .navbar-link a:hover {
   color: #7dd3d8;
   -webkit-transition: 0.1s;
   transition: 0.1s;
@@ -54,44 +58,51 @@
 
 #landing {
   color: white;
+  z-index: -10;
 }
 
 #landing .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   max-width: 450px;
+  position: relative;
+  z-index: 10;
 }
 
-#landing .container h1 {
-  font-size: 3.5em;
+#landing .container .cta {
+  min-width: 450px;
+}
+
+#landing .container .cta h1 {
+  font-size: 3em;
   color: white;
 }
 
-#landing .container h2 {
+#landing .container .cta h2 {
   font-size: 1.8em;
   color: black;
 }
 
-#landing .container p {
+#landing .container .cta p {
   margin: 40px 0;
   line-height: 1.5;
 }
 
-#landing .container button {
-  width: 120px;
-  height: 30px;
+#landing .container .cta button {
+  width: 125px;
+  height: 35px;
   background-color: white;
   border: none;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-#landing .container button:hover {
+#landing .container .cta button:hover {
   background-color: #152020;
   color: white;
   cursor: pointer;
@@ -101,17 +112,14 @@
 
 #landing .container #mockup {
   position: relative;
-  right: -375px;
-  bottom: 380px;
-  z-index: -1;
-  width: 1000px;
+  z-index: -3;
+  width: 800px;
+  bottom: 60px;
 }
 
-#landing .container #blob {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 2000px;
-  z-index: -9;
+#what-we-do {
+  color: black;
+  max-width: 1100px;
+  margin: 150px auto;
 }
 /*# sourceMappingURL=index.css.map */

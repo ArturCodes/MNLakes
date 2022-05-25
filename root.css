@@ -1,5 +1,5 @@
 :root {
-  --light: linear-gradient(145deg,#001099 0,#3ad9ff 96%);
+  --light: linear-gradient(145deg, #001099 0, #3ad9ff 96%);
   --light2: rgb(81, 127, 77);
   --dawn: rgb(241, 128, 53);
   --dawn2: rgb(150, 71, 25);
@@ -10,7 +10,7 @@
 }
 
 .light {
-  background: var(--light);
+  background-color: #1a1a1a;
 }
 
 .dark {
@@ -24,7 +24,8 @@
 }
 
 @media only screen and (min-width: 0em) {
-  body, html {
+  body,
+  html {
     margin: 0;
     padding: 0;
     font-size: 100%;
@@ -32,13 +33,20 @@
     color: var(--bodyText);
     overflow-x: hidden;
   }
-  *, *:before, *:after {
+  *,
+  *:before,
+  *:after {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: #1a1a1a;
   }
   .section {
